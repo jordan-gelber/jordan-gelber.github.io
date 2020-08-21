@@ -21,7 +21,7 @@
             "aot": true,
             "assets": [
               "src/assets",
-              "CNAME"
+              "src/CNAME"
             ],
             "styles": [
               "src/styles.css"
