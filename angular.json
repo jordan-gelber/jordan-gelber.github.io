@@ -20,7 +20,6 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -119,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio-site"
+    }
+  },
+  "defaultProject": "portfolio-site",
+  "cli": {
+    "analytics": false
+  }
 }

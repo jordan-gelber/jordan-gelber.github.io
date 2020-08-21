@@ -1,0 +1,27 @@
+<nav class="top">
+  <div class="toggle">
+    <button (click)="sideNavService.toggleSideNav()">
+      <fa-icon icon="bars"></fa-icon>
+    </button>
+  </div>
+  <div class="top-space"></div>
+  <div id="icons">
+    <div class="icon-container">
+      <a href="mailto:gelberje@gmail.com" title="Email">
+        <fa-icon icon="envelope-square"></fa-icon>
+      </a>
+      <a href="https://github.com/jordan-gelber" target="_blank" rel="noopener" title="Github">
+        <fa-icon [icon]="['fab', 'github-square']"></fa-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/jordan-gelber/" target="_blank" rel="noopener" title="Linkedin">
+        <fa-icon [icon]="['fab', 'linkedin']"></fa-icon>
+      </a>
+      <button class="phone" title="See Number" (click)="numToggle()">
+        <fa-icon icon="phone-square"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="num">
+    <p>+1-919-917-5140</p>
+  </div>
+</nav>

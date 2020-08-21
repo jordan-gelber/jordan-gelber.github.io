@@ -1,0 +1,65 @@
+:host {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  padding: 20px;
+  border: 3px solid;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.header {
+  flex: 1 1 50%;
+}
+
+.details-container {
+  flex: 1 1 50%;
+}
+
+.details-container h2 {
+  border-bottom: 3px solid;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-bar {
+  display: flex;
+  align-items: center;
+}
+
+.button-bar button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 20px;
+  box-shadow: 3px 3px 0px;
+  background: #EDEDED;
+}
+
+.button-bar button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px;
+}
+
+@media all and (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+  }
+  .header {
+    flex: 1 1 auto;
+  }
+  .details-container {
+    flex: 1 1 auto;
+  }
+}

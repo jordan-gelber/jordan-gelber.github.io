@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+
+* {
+  font-family: "Space Mono", Helvetica, sans-serif;
+}
+
+*:focus {
+  outline:none !important;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(to bottom, #ABF8BC, #C7ABF8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 1.2em;
+}
