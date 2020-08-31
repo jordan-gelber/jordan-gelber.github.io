@@ -15,3 +15,32 @@
 h1 {
   font-size: 3em;
 }
+
+.details {
+  padding: 0;
+  list-style: none;
+  /* font-size: 1.2em; */
+}
+
+.details li:before {
+  content: "\2023";
+  margin: 0 10px;
+}
+
+.tech {
+  padding: 0;
+  text-indent: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.tech li:before {
+  content: "\2192";
+  margin: 0 10px;
+}
+
+@media all and (max-width: 1200px) {
+  .tech {
+    flex-direction: column;
+  }
+}

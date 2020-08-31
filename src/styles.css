@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=Karla");
 
 * {
-  font-family: "Space Mono", Helvetica, sans-serif;
+  font-family: "Karla", Helvetica, sans-serif;
 }
 
 *:focus {

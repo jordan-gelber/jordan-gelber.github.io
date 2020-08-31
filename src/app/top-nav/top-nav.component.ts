@@ -20,7 +20,7 @@ export class TopNavComponent implements OnInit {
     // go from hidden to visible
     if (!this.numVis) {
       document.getElementById("icons").style
-        .cssText = `right: 160px;
+        .cssText = `right: 120px;
                     transition: right 0.25s linear;`;
     } else { // go from visible to hidden
       document.getElementById("icons").style

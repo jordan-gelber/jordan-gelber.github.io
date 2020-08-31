@@ -45,6 +45,7 @@ h1 {
   padding: 20px;
   box-shadow: 3px 3px 0px;
   background: #EDEDED;
+  margin: 0 10px;
 }
 
 .button-bar button:hover {

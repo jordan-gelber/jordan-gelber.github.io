@@ -22,8 +22,7 @@
 }
 
 .button-bar {
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 .button-bar button {
@@ -53,12 +52,15 @@
 }
 
 .edu ul {
-  margin: 0;
   padding: 0;
-  text-indent: 3px;
-  list-style-type: none;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.edu li:before {
+  content: "\2023";
+  margin: 0 10px;
 }
 
 .skills {
@@ -72,12 +74,15 @@
 }
 
 .skills ul {
-  margin: 0;
   padding: 0;
-  text-indent: 3px;
-  list-style-type: none;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.skills li:before {
+  content: "\2023";
+  margin: 0 10px;
 }
 
 @media all and (max-width: 1200px) {
